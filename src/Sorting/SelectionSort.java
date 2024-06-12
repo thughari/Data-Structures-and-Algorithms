@@ -2,7 +2,7 @@ package Sorting;
 
 import java.util.Arrays;
 
-public class SelectionSort { //Time Complexity O(n)
+public class SelectionSort {  //Time Complexity O(n^2)
     public static void main(String[] args) {
         int[] nums ={6,5,8,9,4,1,1,10,34,0,0};
         System.out.println("Before Sorting: "+ Arrays.toString(nums));

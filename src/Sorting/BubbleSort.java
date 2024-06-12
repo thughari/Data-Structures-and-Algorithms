@@ -2,7 +2,7 @@ package Sorting;
 
 import java.util.Arrays;
 
-public class BubbleSort { //Time complexity O(n^2)
+public class BubbleSort {  //Time complexity O(n^2)
     public static void main(String[] args) {
         int[] nums ={6,5,8,9,4};
         System.out.println("Before Sorting: "+Arrays.toString(nums));
