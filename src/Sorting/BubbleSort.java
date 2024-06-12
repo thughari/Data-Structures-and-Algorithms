@@ -12,7 +12,7 @@ public class BubbleSort { //Time complexity O(n^2)
     public static void bubbleSort(int[] nums) {
         int temp=0;
         for (int i=0;i<nums.length;i++){
-            for (int j=0;j<nums.length-1-i;j++){
+            for (int j=0;j<nums.length-1-i;j++) {
                 if (nums[j]>nums[j+1]){
                     temp=nums[j];
                     nums[j]=nums[j+1];
