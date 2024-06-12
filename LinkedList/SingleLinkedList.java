@@ -1,4 +1,4 @@
-package linked_list;
+package LinkedList;
 
 public class SingleLinkedList {
     private int length;

@@ -1,4 +1,4 @@
-package linked_list;
+package LinkedList;
 
 public class SingleLLMain {
     public static void main(String[] args) {
