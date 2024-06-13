@@ -53,6 +53,9 @@ public class SingleLinkedList {
       return tempHead;
     }
    // public void insert()
+   public void insert(int index,int value){
+    
+   }
     public int getLength() {
         return length;
     }
