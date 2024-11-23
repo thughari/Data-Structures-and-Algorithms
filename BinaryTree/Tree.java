@@ -12,7 +12,11 @@ public class Tree {
 
         @Override
         public String toString() {
-            return "Node=" + value;
+            return "Node{" +
+                    "value=" + value +
+                    ", leftChild=" + leftChild +
+                    ", rightChild=" + rightChild +
+                    '}';
         }
     }
 
@@ -138,5 +142,12 @@ public class Tree {
                     equals(first.rightChild,second.rightChild);
         }
         return false;
+    }
+
+    @Override
+    public String toString() {
+        return "Tree{" +
+                "root=" + root +
+                '}';
     }
 }

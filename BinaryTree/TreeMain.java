@@ -18,12 +18,13 @@ public class TreeMain {
         tree2.insert(6);
         tree2.insert(8);
         tree2.insert(10);
-//        System.out.println(tree.find(1));
-//        tree.traversePreOrder();
-//        tree.traverseInOrder();
-//        tree.traversePostOrder();
-//        System.out.println(tree.height());
-//        System.out.println(tree.min());
+        System.out.println(tree.toString());
+        System.out.println(tree.find(1));
+        tree.traversePreOrder();
+        tree.traverseInOrder();
+        tree.traversePostOrder();
+        System.out.println(tree.height());
+        System.out.println(tree.min());
         System.out.println(tree.equals(null));
     }
 }
